@@ -1,0 +1,22 @@
+.nav-search {
+  display: flex;
+  flex: 1;
+}
+
+.search-category {
+  padding: 8px;
+  border: none;
+}
+
+.nav-search input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+}
+
+.search-btn {
+  background: #febd69;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}

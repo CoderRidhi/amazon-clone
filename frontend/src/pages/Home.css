@@ -1,0 +1,38 @@
+.home {
+  background: #eaeded;
+  min-height: 100vh;
+}
+
+/* 🔥 Banner */
+.home-banner {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* 🛍️ Product Grid */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+/* 📱 Responsive */
+@media (max-width: 1200px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+}

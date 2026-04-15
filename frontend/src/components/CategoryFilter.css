@@ -1,0 +1,27 @@
+.category-container {
+  display: flex;
+  gap: 10px;
+  padding: 10px 20px;
+  overflow-x: auto;
+  background: #232f3e;
+}
+
+.category-container button {
+  background: #37475a;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.category-container button:hover {
+  background: #485769;
+}
+
+.category-container .active {
+  background: #febd69;
+  color: black;
+  font-weight: bold;
+}

@@ -1,0 +1,74 @@
+.product-detail {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+  background: white;
+}
+
+/* LEFT */
+.detail-left {
+  flex: 1;
+}
+
+/* CENTER */
+.detail-center {
+  flex: 2;
+}
+
+.title {
+  font-size: 22px;
+}
+
+.rating {
+  color: #f0c14b;
+  font-size: 14px;
+}
+
+.price {
+  color: #b12704;
+  font-size: 28px;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.stock {
+  margin-top: 10px;
+  color: green;
+}
+
+/* RIGHT (BUY BOX) */
+.detail-right {
+  flex: 1;
+  border: 1px solid #ddd;
+  padding: 20px;
+  height: fit-content;
+}
+
+.add-btn {
+  width: 100%;
+  padding: 10px;
+  background: #ffd814;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.buy-btn {
+  width: 100%;
+  padding: 10px;
+  background: orange;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: #f7ca00;
+}
+
+.buy-btn:hover {
+  background: darkorange;
+}
