@@ -21,7 +21,7 @@ Run schema.sql in PostgreSQL
 
 
 
-## 🚀 Features
+## Features
 
 * View all products
 * Search and filter by category
@@ -31,7 +31,7 @@ Run schema.sql in PostgreSQL
 * Place order with address
 * View order history
 
-## 🧠 Workflow (How it works)
+## Workflow (How it works)
 
 1. User opens Home Page → products are fetched from backend API
 2. User clicks a product → Product Detail Page opens
@@ -43,7 +43,7 @@ Run schema.sql in PostgreSQL
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 * **Frontend:** React (Vercel deployed)
 * **Backend:** Node.js + Express (Render deployed)
@@ -52,13 +52,13 @@ Run schema.sql in PostgreSQL
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
 Frontend: https://amazon-clone-frontend-ridhi.vercel.app/
 Backend: https://amazon-clone-backend-34ux.onrender.com
 
 
-## 💡 Key Learnings
+## Key Learnings
 
 * Connected frontend with backend APIs
 * Handled real database (Aiven MySQL)
@@ -66,13 +66,13 @@ Backend: https://amazon-clone-backend-34ux.onrender.com
 * Deployed full stack app (Vercel + Render)
 * Debugged real-world issues (CORS, env, DB errors)
 
-## 📌 Future Improvements
+## Future Improvements
 
 * Order History 
 * Better UI/UX
 * Wishlist Item
 
-## 🙌 Author
+## Author
 
 Ridhi
 
