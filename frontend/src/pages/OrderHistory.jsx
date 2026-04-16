@@ -4,7 +4,7 @@ const OrderHistory = ({ userId }) => {
   const [orders, setOrders] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/api/orders/user/${userId}`)
+    fetch(`${process.env.REACT_APP_API_URL}/api/orders/user/${userId}`)
       .then(res => res.json())
       .then(data => {
         console.log("Order History:", data);

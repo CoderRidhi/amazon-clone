@@ -26,8 +26,9 @@ export default function Home() {
   // ✅ FETCH PRODUCTS
   useEffect(() => {
     axios
-      .get("http://localhost:5000/products")
+      .get(`https://amazon-clone-backend-34ux.onrender.com/products`)
       .then((res) => {
+        console.log("🔥 API DATA:", res.data);
         setProducts(res.data);
         setFiltered(res.data);
       })

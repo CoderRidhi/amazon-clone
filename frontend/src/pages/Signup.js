@@ -17,7 +17,7 @@ function Signup() {
 
   const handleSubmit = async () => {
     try {
-      await axios.post("http://localhost:5000/auth/signup", form);
+      await axios.post(`${process.env.REACT_APP_API_URL}/auth/signup`, form);
       alert("Signup successful");
       navigate("/login");
     } catch (err) {

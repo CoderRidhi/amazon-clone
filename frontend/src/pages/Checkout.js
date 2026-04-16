@@ -30,7 +30,7 @@ function Checkout() {
     }
 
     try {
-      const res = await axios.post("http://localhost:5000/orders", {
+      const res = await axios.post(`${process.env.REACT_APP_API_URL}/orders`, {
         user_id: user.id,
         total_amount: total,
         address,

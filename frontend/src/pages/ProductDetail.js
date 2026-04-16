@@ -14,7 +14,7 @@ export default function ProductDetail() {
   // ✅ FETCH PRODUCT BY ID
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/products/${id}`)
+      .get(`${process.env.REACT_APP_API_URL}/products/${id}`)
       .then((res) => setProduct(res.data))
       .catch((err) => console.error(err));
   }, [id]);

@@ -18,9 +18,9 @@ CREATE TABLE products (
 );
 
 INSERT INTO products (name, price, description, category, image, stock) VALUES
-('Laptop', 50000, 'High performance laptop', 'Electronics', 'http://localhost:5000/images/laptop.jpg', 10),
-('Phone', 20000, 'Smartphone', 'Electronics', 'http://localhost:5000/images/phone.jpg', 15),
-('T-Shirt', 999, 'Cotton T-Shirt', 'Fashion', 'http://localhost:5000/images/shirt.jpg', 20);
+('Laptop', 50000, 'High performance laptop', 'Electronics', 'https://amazon-clone-backend-34ux.onrender.com/images/laptop.jpg', 10),
+('Phone', 20000, 'Smartphone', 'Electronics', 'https://amazon-clone-backend-34ux.onrender.com/images/phone.jpg', 15),
+('T-Shirt', 999, 'Cotton T-Shirt', 'Fashion', 'https://amazon-clone-backend-34ux.onrender.com/images/shirt.jpg', 20);
 
 CREATE TABLE orders (
   id INT AUTO_INCREMENT PRIMARY KEY,
@@ -29,6 +29,9 @@ CREATE TABLE orders (
   address TEXT,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+ALTER TABLE orders
+ADD COLUMN user_id INT;
 
 CREATE TABLE order_items (
   id INT AUTO_INCREMENT PRIMARY KEY,
@@ -49,18 +52,18 @@ CREATE TABLE cart (
 
 -- Electronics
 INSERT INTO products (name, price, description, category, image, stock) VALUES
-('Samsung TV', 45000, 'Smart LED TV', 'Electronics', 'http://localhost:5000/images/tv.jpg', 5),
-('Boat Earbuds', 1999, 'Wireless earbuds', 'Electronics', 'http://localhost:5000/images/earbuds.jpg', 20);
+('Samsung TV', 45000, 'Smart LED TV', 'Electronics', 'https://amazon-clone-backend-34ux.onrender.com/images/tv.jpg', 5),
+('Boat Earbuds', 1999, 'Wireless earbuds', 'Electronics', 'https://amazon-clone-backend-34ux.onrender.com/images/earbuds.jpg', 20);
 
 -- Fashion
 INSERT INTO products (name, price, description, category, image, stock) VALUES
-('Jeans', 1999, 'Denim jeans', 'Fashion', 'http://localhost:5000/images/jeans.jpg', 15),
-('Jacket', 2999, 'Winter jacket', 'Fashion', 'http://localhost:5000/images/jacket.jpg', 10);
+('Jeans', 1999, 'Denim jeans', 'Fashion', 'https://amazon-clone-backend-34ux.onrender.com/images/jeans.jpg', 15),
+('Jacket', 2999, 'Winter jacket', 'Fashion', 'https://amazon-clone-backend-34ux.onrender.com/images/jacket.jpg', 10);
 
 -- Footwear
 INSERT INTO products (name, price, description, category, image, stock) VALUES
-('Sneakers', 2499, 'Casual sneakers', 'Footwear', 'http://localhost:5000/images/sneakers.jpg', 12),
-('Sandals', 999, 'Comfort sandals', 'Footwear', 'http://localhost:5000/images/sandals.jpg', 18);
+('Sneakers', 2499, 'Casual sneakers', 'Footwear', 'https://amazon-clone-backend-34ux.onrender.com/images/sneakers.jpg', 12),
+('Sandals', 999, 'Comfort sandals', 'Footwear', 'https://amazon-clone-backend-34ux.onrender.com/images/sandals.jpg', 18);
 
 CREATE TABLE users (
   id INT AUTO_INCREMENT PRIMARY KEY,

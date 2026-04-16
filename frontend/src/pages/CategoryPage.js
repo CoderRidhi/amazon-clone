@@ -12,7 +12,7 @@ function CategoryPage() {
   // ✅ Fetch + Filter Products
   useEffect(() => {
     axios
-      .get("http://localhost:5000/products")
+      .get(`${process.env.REACT_APP_API_URL}/products`)
       .then((res) => {
         console.log("URL CATEGORY:", category);
         console.log("ALL PRODUCTS:", res.data);
@@ -40,7 +40,7 @@ function CategoryPage() {
   // ✅ ADD TO CART FUNCTION
   const handleAddToCart = async (productId) => {
     try {
-      await axios.post("http://localhost:5000/cart", {
+      await axios.post(`${process.env.REACT_APP_API_URL}/cart`, {
         product_id: productId,
       });
 
