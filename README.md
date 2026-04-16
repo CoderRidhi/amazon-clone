@@ -57,26 +57,6 @@ Run schema.sql in PostgreSQL
 Frontend: https://amazon-clone-frontend-ridhi.vercel.app/
 Backend: https://amazon-clone-backend-34ux.onrender.com
 
----
-
-## 📐 Wireframes
-
-### 🏠 Home Page
-
-![Home](wireframes/Wireframe-1.png)
-
-### 📦 Product Page
-
-![Product](wireframes/Desktop-1.png)
-
-### 🛒 Cart Page
-
-![Cart](wireframes/Desktop-2.png)
-
-### 💳 Checkout Page
-
-![Checkout](wireframes/Wireframe-2.png)
-
 
 ## 💡 Key Learnings
 
