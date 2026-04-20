@@ -2,6 +2,10 @@
 A full-stack e-commerce web app inspired by Amazon.
 Users can browse products, add them to cart, and place orders.
 
+<p align="center">
+  <img src="architecture.png" width="900"/>
+</p>
+
 ### Live Demo
 Frontend: https://amazon-clone-frontend-ridhi.vercel.app/
 Backend: https://amazon-clone-backend-34ux.onrender.com
