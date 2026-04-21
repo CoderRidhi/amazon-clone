@@ -6,6 +6,12 @@ Users can browse products, add them to cart, and place orders.
   <img src="architecture.png" width="900"/>
 </p>
 
+## 🎨 User Workflow / UI Wireframe
+
+<p align="center">
+  <img src="wireframe.png" width="900"/>
+</p>
+
 ### Live Demo
 Frontend: https://amazon-clone-frontend-ridhi.vercel.app/
 Backend: https://amazon-clone-backend-34ux.onrender.com
