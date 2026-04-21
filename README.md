@@ -8,7 +8,7 @@ Users can browse products, add them to cart, and place orders.
 
 ## DB Design
 <p align="center">
-  <img src="db design.png" width="100%"/>
+  <img src="db design.PNG" width="100%"/>
 </p>
 
 ## 🎨 User Workflow / UI Wireframe
