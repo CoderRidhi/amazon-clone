@@ -3,13 +3,13 @@ A full-stack e-commerce web app inspired by Amazon.
 Users can browse products, add them to cart, and place orders.
 
 <p align="center">
-  <img src="architecture.png" width="900"/>
+  <img src="architecture.png" width="100%"/>
 </p>
 
 ## 🎨 User Workflow / UI Wireframe
 
 <p align="center">
-  <img src="wireframe.png" width="900"/>
+  <img src="wireframe.png" width="100%"/>
 </p>
 
 ### Live Demo
