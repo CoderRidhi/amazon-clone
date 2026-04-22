@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import ProductCard from "../components/ProductCard";
-import SearchBar from "../components/SearchBar";
+
 import CategoryFilter from "../components/CategoryFilter";
 import ImageCarousel from "../components/ImageCarousel";
 import "./Home.css";
@@ -76,8 +76,7 @@ export default function Home() {
         <ImageCarousel images={bannerImages} />
       </div>
 
-      {/* 🔍 SEARCH */}
-      <SearchBar onSearch={handleSearch} />
+      
 
       {/* 🧩 CATEGORY FILTER */}
       <CategoryFilter

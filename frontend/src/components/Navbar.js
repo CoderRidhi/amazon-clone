@@ -2,6 +2,7 @@ import "./Navbar.css";
 import { Link, useNavigate } from "react-router-dom";
 import { useContext, useState, useEffect } from "react";
 import { CartContext } from "../context/CartContext";
+import SearchBar from "./SearchBar";
 
 export default function Navbar() {
   const { cart } = useContext(CartContext);
@@ -48,26 +49,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* SEARCH */}
-      <form className="nav-search" onSubmit={handleSearch}>
-        <select className="search-category">
-          <option>All</option>
-          <option>Electronics</option>
-          <option>Fashion</option>
-          <option>Books</option>
-        </select>
-
-        <input
-          type="text"
-          placeholder="Search Amazon.in"
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-        />
-
-        <button type="submit" className="search-btn">
-          🔍
-        </button>
-      </form>
+      <SearchBar onSearch={(data) => console.log(data)} />
 
       {/* RIGHT */}
       <div className="nav-right">
